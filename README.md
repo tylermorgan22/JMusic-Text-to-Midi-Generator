@@ -17,12 +17,27 @@ https://explodingart.com/jmusic/GetjMusic.html
 3. Put my java files into the src folder
 
 OPERATION:
-1. Run the project
-2. Press "CHOOSE FILE"
+1. Run the project: 
+
+CLICKED_START.PNG
+
+2. Press "CHOOSE FILE":
+
+CLICKED_FILE_CHOOSER.PNG
+
 3. Choose a text file
-4. Choose a key and a scale in the bottom where it says "C" and "AEOLEAN_SCALE"
-5. In each of the three ACTION tabs, choose something that you want to happen to the melody when the scanner hits a word with the characters represented by check boxes
-6. Use the checkboxes to select trigger characters for the specified actions
+4. Choose a default pan and vol setting on the sliders and  a key and a scale in the bottom where it says "C" and "AEOLEAN_SCALE:"
+
+SET_PAN_VOL_SCALE_KEY.PNG
+
+5. In each of the three ACTION tabs, choose something that you want to happen to the melody when the scanner hits a word with the characters represented by check boxes:
+
+ACTION_OPTIONS.PNG
+
+6. Use the checkboxes to select trigger characters for the specified actions:
+
+ACTION_CHOSEN.PNG
+
 7. Press start. The output files will be rendered to Drums1.mid, Melody1.mid, and Bass1.mid
 
 WHAT TO DO WITH THE OUTPUT FILES:
