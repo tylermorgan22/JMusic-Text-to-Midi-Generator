@@ -3,9 +3,12 @@ This program lets the user choose a text File and set parameters for the generat
 
 EXAMPLES:
 
-BM1.mp3: song made with BM1.txt as input
-BM2.mp3: song made with BM2.txt as input
-BM3.mp3: song made with BM3.txt as input
+BM1.mp3: song made with BM1.txt as input.
+
+BM2.mp3: song made with BM2.txt as input.
+
+BM3.mp3: song made with BM3.txt as input. My personal favorite of the three
+
 
 SETUP:
 1. Follow these instructions from JMusic:
