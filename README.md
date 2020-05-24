@@ -26,12 +26,13 @@ OPERATION:
 7. Press start. The output files will be rendered to Drums1.mid, Melody1.mid, and Bass1.mid
 
 WHAT I DO WITH THE OUTPUT FILES:
-In REAPER, a DAW, I set up 3 new tracks:
+A. In REAPER, a DAW, I set up 3 new tracks:
   1. Sampler: Choose the sound for the melody. Add a Reverb effect. Import Melody1.mid.
   2. Sampler: Choose a bass sound, add a bass amp simulator if the effect is not already amplified or "electronic" sounding.
     Add a Reverb effect. Import Bass1.mid.
   3. Drum Machine: I use this - https://www.dskmusic.com/dsk-drumz-akoustik/
   CharAndString.java is set to make notes in the pitch range of this sampler, C2-B2. I also add a Reverb effect to this plugin. Import       Drums1.mid
+B. Loop the shorter files so that they line up with the longest one
   ATTRIBUTION:
     JMUSIC Developers: Andrew Brown, Andrew Sorensen, Adam Kirby, Rene Wooller, Tim Opie
     
@@ -48,7 +49,7 @@ In REAPER, a DAW, I set up 3 new tracks:
     Tabbed panes allow me to have a more complex GUI without a large, confusing window
 
  TESTING PROCESS:
-    I did a lot of minor testing along the way. I used a text file with the string "ah bh ch dh eh fh gh hai" to test all of the Actions and the melody writer. I used my notes from AP European history as another testing file. I used this file to print into the console all of the strings that I scanned to make sure the RegEx that I used worked. For an example of what the program can produce, I have submitted what I made with the first section of the Bee Movie.
+    I did a lot of minor testing along the way. I used a text file with the string "ah bh ch dh eh fh gh hai" to test all of the Actions and the melody writer. I used my notes from AP European history as another testing file. I used this file to print into the console all of the strings that I scanned to make sure the RegEx that I used worked. For an example of what the program can produce, I have submitted what I made with 3 different sections of the Bee Movie.
    
    JAVA CLASSES:
 
