@@ -25,15 +25,18 @@ OPERATION:
 6. Use the checkboxes to select trigger characters for the specified actions
 7. Press start. The output files will be rendered to Drums1.mid, Melody1.mid, and Bass1.mid
 
-WHAT I DO WITH THE OUTPUT FILES:
-A. In REAPER, a DAW, I set up 3 new tracks:
+WHAT TO DO WITH THE OUTPUT FILES:
+
+A. In REAPER, or another DAW,  set up 3 new tracks:
   1. Sampler: Choose the sound for the melody. Add a Reverb effect. Import Melody1.mid.
-  2. Sampler: Choose a bass sound, add a bass amp simulator if the effect is not already amplified or "electronic" sounding.
+  2. Sampler: Choose a bass sound, add a bass amp simulator if the sound is not already amplified or "electronic" sounding.
     Add a Reverb effect. Import Bass1.mid.
-  3. Drum Machine: I use this - https://www.dskmusic.com/dsk-drumz-akoustik/
-  CharAndString.java is set to make notes in the pitch range of this sampler, C2-B2. I also add a Reverb effect to this plugin. Import       Drums1.mid
+  3. Drum Machine: I use this - https://www.dskmusic.com/dsk-drumz-akoustik/ - CharAndString.java is set to make notes in the pitch range of this VST instrument, C2-B2. Also add a Reverb effect to this plugin. Import Drums1.mid
+  
 B. Loop the shorter files so that they line up with the longest one
+
   ATTRIBUTION:
+  
     JMUSIC Developers: Andrew Brown, Andrew Sorensen, Adam Kirby, Rene Wooller, Tim Opie
     
     Dropdown Menu Tutorial
