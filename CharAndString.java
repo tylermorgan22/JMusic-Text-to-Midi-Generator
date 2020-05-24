@@ -1,6 +1,4 @@
 import java.util.ArrayList;
-
-
 import jm.constants.Durations;
 import jm.music.data.Note;
 import jm.music.data.Rest;
@@ -83,7 +81,6 @@ public class CharAndString {
 			volume = (int)(Math.random()*51)+77;
 			note.setDynamic(volume);
 			note.setDuration(rVal);
-			System.out.print(note);
 			notes.add(note);
 		}
 		return notes;
@@ -175,7 +172,6 @@ public class CharAndString {
 				
 			}
 			newNote.setPitch(pitch+shift);
-			//System.out.println(shift);
 			note.add(newNote);
 		}
 		
