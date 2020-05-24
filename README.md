@@ -14,7 +14,7 @@ SETUP:
 1. Follow these instructions from JMusic:
 https://explodingart.com/jmusic/GetjMusic.html
 2. Ensure that the JMusic files are in your external Archives and the Inst files are in your build path
-3. Put these files into the src folder
+3. Put my java files into the src folder
 
 OPERATION:
 1. Run the project
