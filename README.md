@@ -40,9 +40,15 @@ In REAPER, a DAW, I set up 3 new tracks:
 
  TESTING PROCESS:
     I did a lot of minor testing along the way. I used a text file with the string "ah bh ch dh eh fh gh hai" to test all of the Actions and the melody writer. I used my notes from AP European history as another testing file. I used this file to print into the console all of the strings that I scanned to make sure the RegEx that I used worked. For an example of what the program can produce, I have submitted what I made with the first section of the Bee Movie.
-    JAVA CLASSES:
+   
+   JAVA CLASSES:
+
 MyScales: a dropdown menu to choose the key of the song
+
 Action: a dropdown menu with checkboxes to control what happens when a word contains certain characters.
+
 CharAndString: uses RegEx to split the inputed file and then process them into music notes.
+
 FileReader: scans file, passes file text to CharAndString, turns what it recieves into a Phrase
+
 Composition: the front end, manages the GUI.
